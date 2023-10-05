@@ -1,13 +1,7 @@
 #include "lab04.h"
 #include <stdio.h>
 
-/**
- * @brief Initialize the board with inputs.
- * Empty positions will be represented by hyphens.
- *
- * @param board
- * @param positions
- */
+
 void init_board(board_t board, char **argv) {
   int k = 0;
   for (int i = 0; i < BOARD_SZ; i++) {
